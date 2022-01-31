@@ -1,0 +1,65 @@
+.header {
+    margin: 20px auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+body {
+    background: url(../JS/VSC/pictures/pattern.svg) fixed;
+}
+.header-title {
+    margin: auto;
+    color: rgb(0, 0, 0);`
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0);
+}
+.card-title {
+    font-size: x-large;
+    letter-spacing: 0.1em;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+.text {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+.card {
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+.square-block {
+    display: inline-block;
+    width: 20%;
+    padding: 30px 20px;
+    border: 3px double rgb(0, 0, 0) ;
+    background: rgb(156, 202, 23);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 5px rgb(99, 130, 7);
+}
+img {
+    width: 35%;
+}
+.counter__btn {
+    width: 10%;
+    border: 3px double rgb(0, 0, 0) ;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+.counter__value {
+    width: 20%;
+    border: 3px double rgb(0, 0, 0) ;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
