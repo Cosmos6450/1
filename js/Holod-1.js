@@ -1,24 +1,19 @@
-const counter = () => {
-    const btns = document.querySelectorAll('.counter__btn');
-
-
-    btns.forEach(btn => {
-        btn.addEventListener('click', function () {
-            const direction = this.dataset.direction;
-            const inp = this.parentElement.querySelector('.counter__value');
-            const currentValue = +inp.value;
-            let newValue;
-
-            if (direction === 'plus') {
-                newValue = currentValue + 1;
-            } else {
-                newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
-            }
-
-            inp.value = newValue;
-        });
-    });
-
+const handlePlusMinus = (cardName, direction) => {
+    const counter_id = cardName + '_counter';
+    const inp = document.getElementById(counter_id);
+    if (direction === 'plus') {
+        inp.value = +inp.value + 1;
+    } else if (direction === "minus") {
+        inp.value = +inp.value - 1 > 0 ? +inp.value - 1 : 0;
+    }
 }
 
-counter();
+document.addEventListener('click', (event) => {
+    const id = event.target.id;
+    const id_parts = id.split('_');
+    if (id_parts[1] === "plus-button") {
+        handlePlusMinus(id_parts[0], 'plus');
+    } else if (id_parts[1] === "minus-button") {
+        handlePlusMinus(id_parts[0], 'minus');
+    }
+});
