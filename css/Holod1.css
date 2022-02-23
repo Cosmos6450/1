@@ -68,8 +68,8 @@ body {
     color: rgb(0, 0, 0);
 }
 .card {
-    margin: 20px auto;
-    background: rgba(255, 255, 255, 0);
+    /* margin: 20px auto;
+    background: rgba(255, 255, 255, 0); */
     text-align: center;
 }
 .square-block {
@@ -83,8 +83,14 @@ body {
     margin: 20px 20px 20px 20px;
     box-shadow: 2px 2px 5px rgb(99, 130, 7);
 }
+
+.square-block:hover { 
+    box-shadow: -2px -2px rgb(48, 61, 10), 2px 2px rgb(48, 61, 10);
+}
+
 img {
     width: 35%;
+    margin: 1px;
 }
 .counter__btn {
     width: 10%;
@@ -93,7 +99,7 @@ img {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
-    margin: 20px 20px 20px 20px;
+    margin:  0px 5px 0px 5px;
 
 }
 .counter__value {
