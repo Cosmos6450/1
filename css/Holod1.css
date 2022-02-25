@@ -1,4 +1,4 @@
-/*Обнуление*/
+Обнуление
 *{
 	padding: 0;
 	margin: 0;
@@ -68,8 +68,7 @@ body {
     color: rgb(0, 0, 0);
 }
 .card {
-    /* margin: 20px auto;
-    background: rgba(255, 255, 255, 0); */
+    margin: 20px auto;
     text-align: center;
 }
 .square-block {
@@ -81,11 +80,10 @@ body {
     color: rgb(0, 0, 0);
     text-align: center;
     margin: 20px 20px 20px 20px;
-    box-shadow: 2px 2px 5px rgb(99, 130, 7);
 }
 
 .square-block:hover { 
-    box-shadow: -2px -2px rgb(48, 61, 10), 2px 2px rgb(48, 61, 10);
+    box-shadow: -1px -1px 2px rgba(217, 238, 155, 0.699), 6px 6px 6px rgba(66, 83, 15, 0.699);
 }
 
 img {

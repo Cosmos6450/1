@@ -9,10 +9,8 @@
 <body>
     <nav>
         <header class="header">
-            <div class="overlay">
-                <h1 class="header-title">My holodilnik.</h1>
-                <a class="text">Этот сайт показывает сколько продуктов в твоем холодильнике.</a>
-            </div>
+            <h1 class="header-title">My holodilnik.</h1>
+            <a class="text">Этот сайт показывает сколько продуктов в твоем холодильнике.</a>
         </header>
 
         <section class="header">
@@ -22,11 +20,13 @@
                 </label>
                 <button type="submit">Поиск</button>
             </form>
+            <button type="button" id="btn_1">Создать новую полку для продуктов</button>
 
         </section>
 
-        <section class=card>
-            <section class="drinks" id="drinks_crd">
+        <section id="holodilnik">
+
+            <section class="card" id="drinks_crd">
                 <h3 class="card-title"> Полка №1 "Напитки"</h3>
                 <div class="square-block" id="beer_card">
                     <img src=img/beer.png alt="Beer">
@@ -57,7 +57,7 @@
                 </div>
             </section>
 
-            <section class="vegetables" id="vegetables_card">
+            <section class="card" id="vegetables_card">
                 <h3 class="card-title"> Полка №2 "Овощи"</h3>
                 <div class="square-block" id="Cucumber_card">
                     <img src=img/cucumber.png alt="Cucumber">
@@ -88,7 +88,7 @@
                 </div>
             </section>
 
-            <section class="fruits" id="fruits_card">
+            <section class="card" id="fruits_card">
                 <h3 class="card-title"> Полка №3 "Фрукты"</h3>
                 <div class="square-block" id="Apple_card">
                     <img src=img/apple.png alt="Apple">
@@ -119,7 +119,7 @@
                 </div>
             </section>
 
-            <section class="sausage-cheese" id="sausage-cheese_card">
+            <section class="card" id="sausage-cheese_card">
                 <h3 class="card-title">Полка №4 "Колбаса/Сыр"</h3>
                 <div class="square-block" id="Sausage_card">
                     <img src=img/sausages.png alt="Sausage">
@@ -149,7 +149,6 @@
                     </div>
                 </div>
             </section>
-
         </section>
 
         <link rel=stylesheet href=css\Holod1.css>
