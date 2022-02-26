@@ -23,15 +23,15 @@ document.getElementById('btn_1').onclick = function createElement() {
 	const section = document.createElement('section');
 	section.className = "card"; //Создаем нову полку
 
-	const button = document.createElement('button');
-	button.innerText = 'Прибавить продукт'
-	button.className = 'btn_2'
-	section.appendChild(button);//При нажати на кнопку, на этой полке должна появиться новая карточка продукта.
+	// const button = document.createElement('button');
+	// button.innerText = 'Прибавить продукт'
+	// button.className = 'btn_2'
+	// section.appendChild(button);//При нажати на кнопку, на этой полке должна появиться новая карточка продукта.
 
-	const h3 = document.createElement('h3');
+	let h3 = document.createElement('h3');
 	h3.className = 'card-title';
 	h3.innerText = "Полка №4 Яйца";
-	section.appendChild(h3);// Заголовок	
+	section.appendChild(h3);// Заголовок
 
 	const div = document.createElement('div');
 	div.className = "square-block";
@@ -42,14 +42,5 @@ document.getElementById('btn_1').onclick = function createElement() {
 	img.className = 'img';
 	div.appendChild(img);
 
-
-
 	document.body.append(section);
 }
-
-	// < div class="counter" >
-   //    <button class="counter__btn" data-direction="plus" id="beer_plus-button">+</button>
-   //    <input type="text" value="0" class="counter__value" id="beer_counter">
-   //    <button class="counter__btn" data-direction="minus" id="beer_minus-button">-</button>
-
-	//type="button" id="btn"
