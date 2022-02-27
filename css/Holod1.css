@@ -35,7 +35,8 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
 
 .header {
     margin: 20px auto;
@@ -52,9 +53,6 @@ body {
     margin: auto;
     color: rgb(0, 0, 0);
 }
-.overlay {
-    background-color: rgba(255, 255, 255, 0);
-}
 .card-title {
     font-size: x-large;
     letter-spacing: 0.1em;
@@ -66,6 +64,10 @@ body {
     font-size: 100%;
     font-weight: normal;
     color: rgb(0, 0, 0);
+}
+.shelf{
+    margin: 20px auto;
+    text-align: center;
 }
 .card {
     margin: 20px auto;
