@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang=en>
+<link rel=stylesheet href=css\Holod1.css>
 
 <head>
     <meta charset=UTF-8>
-    <title>JavaScript</title>
+    <title>Holodilnik</title>
 </head>
 
 <body>
@@ -20,138 +21,10 @@
                 </label>
                 <button type="submit">Поиск</button>
             </form>
-            <!-- <button type="button" id="btn_1">Создать новую полку для продуктов</button> -->
-
         </section>
 
-        <section id="holodilnik">
+        <section id="holodilnik"></section>
 
-            <section class="card" id="drinks_card">
-                <h3 class="card-title"> Полка №1 "Напитки"</h3>
-                <div class="square-block" id="beer_card">
-                    <img src=img/beer.png alt="Beer">
-                    <h3>Beer</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="beer_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="beer_counter">
-                        <button class="counter__btn" data-direction="minus" id="beer_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="soda_card">
-                    <img src=img/soft-drink.png alt="Soda">
-                    <h3>Soda</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="soda_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="soda_counter">
-                        <button class="counter__btn" data-direction="minus" id="soda_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Juice_card">
-                    <img src=img/drink.png alt="Juice">
-                    <h3>Juice</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Juice_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Juice_counter">
-                        <button class="counter__btn" data-direction="minus" id="Juice_minus-button">-</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="card" id="vegetables_card">
-                <h3 class="card-title"> Полка №2 "Овощи"</h3>
-                <div class="square-block" id="Cucumber_card">
-                    <img src=img/cucumber.png alt="Cucumber">
-                    <h3>Cucumber</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="minus" id="Tomato_minus-button">-</button>
-                        <input type="text" value="0" class="counter__value" id="Cucumber_counter">
-                        <button class="counter__btn" data-direction="minus" id="Cucumber_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Tomato_card">
-                    <img src=img/tomato.png alt="Tomato">
-                    <h3>Tomato</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Tomato_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Tomato_counter">
-                        <button class="counter__btn" data-direction="minus" id="Tomato_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Carrot_card">
-                    <img src=img/carrots.png alt="Carrot">
-                    <h3>Carrot</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Carrot_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Carrot_counter">
-                        <button class="counter__btn" data-direction="minus" id="Carrot_minus-button">-</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="card" id="fruits_card">
-                <h3 class="card-title"> Полка №3 "Фрукты"</h3>
-                <div class="square-block" id="Apple_card">
-                    <img src=img/apple.png alt="Apple">
-                    <h3>Apple</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Apple_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Apple_counter">
-                        <button class="counter__btn" data-direction="minus" id="Apple_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Orang_card">
-                    <img src=img/orange.png alt="Orang">
-                    <h3>Orang</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Orang_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Orang_counter">
-                        <button class="counter__btn" data-direction="minus" id="Orang_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Grape_card">
-                    <img src=img/grape.png alt="Grape">
-                    <h3>Grape</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Grape_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Grape_counter">
-                        <button class="counter__btn" data-direction="minus" id="Grape_minus-button">-</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="card" id="sausage-cheese_card">
-                <h3 class="card-title">Полка №4 "Колбаса/Сыр"</h3>
-                <div class="square-block" id="Sausage_card">
-                    <img src=img/sausages.png alt="Sausage">
-                    <h3>Sausage</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Sausage_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Sausage_counter">
-                        <button class="counter__btn" data-direction="minus" id="Sausage_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Cheese_card">
-                    <img src=img/cheese.png alt="Cheese">
-                    <h3>Cheese</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Cheese_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Cheese_counter">
-                        <button class="counter__btn" data-direction="minus" id="Cheese_minus-button">-</button>
-                    </div>
-                </div>
-                <div class="square-block" id="Ham_card">
-                    <img src=img/ham.png alt="Ham">
-                    <h3>Ham</h3>
-                    <div class="counter">
-                        <button class="counter__btn" data-direction="plus" id="Ham_plus-button">+</button>
-                        <input type="text" value="0" class="counter__value" id="Ham_counter">
-                        <button class="counter__btn" data-direction="minus" id="Ham_minus-button">-</button>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <link rel=stylesheet href=css\Holod1.css>
         <script src=js\Holod-1.js></script>
     </nav>
 </body>
